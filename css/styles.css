@@ -1,5 +1,36 @@
+#main-pic {
+	width: 110%;
+	margin-left: -15px;
+}
+
+.little-nav {
+	padding: 8px;
+	background-color: #222;
+	margin: 0 -20px;
+}
+
+.glyphicon-leaf {
+	margin-left: 6px;
+}
+
+a.menu-item:hover {
+	color: #BDD2FF !important;
+}
+
+#leaf1, a#about {
+	color: #537A30;
+}
+
+#leaf2, a#portfolio {
+	color: #E5DE65;
+}
+
+#leaf3, a#contact {
+	color: #915840;
+}
+
 .navbar-fixed-top {
-	margin-top: 10%;
+	margin-top: 25%;
 }
 
 .navbar-right {
