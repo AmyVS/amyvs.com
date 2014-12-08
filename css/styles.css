@@ -78,10 +78,9 @@ a.menu-item:hover {
   background-color: #222;
   margin-right: -110px;
   margin-left: -15px;
-  text-align: center;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   font-family: 'Kaushan Script', cursive;
 }
@@ -91,6 +90,17 @@ h2 {
   margin-bottom: -120px;
   color: #537A30;
   text-shadow: darkgray 0.1em 0.1em 0.2em;
+}
+
+.portfolio-content {
+  background-color: #5d5d5d;
+  margin: -20px -110px -10px -15px;
+}
+
+#portfolio-title {
+  text-align: center;
+  text-shadow: #FFF 0.1em 0.1em 0.2em;
+  color: #E5DE65;
 }
 
 .thumbnail {
