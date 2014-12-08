@@ -59,4 +59,12 @@ a.menu-item:hover {
 		margin-top: -8px;
     max-height: 8px;
 	}
+  #main-pic {
+    margin-top: -16%;
+  }
+  #name {
+    font-size: 2em;
+    margin-top: 15%;
+    margin-left: 20px;
+  }
 }
