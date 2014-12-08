@@ -23,6 +23,10 @@
 	margin-left: 6px;
 }
 
+.glyphicon-leaf:hover {
+  color: #BDD2FF !important;
+}
+
 a.menu-item:hover {
 	color: #BDD2FF !important;
 }
