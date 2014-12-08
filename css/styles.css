@@ -86,6 +86,14 @@ a.menu-item:hover {
   border-radius: 2em;
 }
 
+#bio-text {
+  margin: 150px 25px 0 30px;
+}
+
+#bio-pic {
+  margin-top: 20px;
+}
+
 @media (max-width: 640px) {
 	.main-nav {
 		margin-top: -8px;
