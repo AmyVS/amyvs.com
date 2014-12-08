@@ -12,6 +12,7 @@
 	z-index: 1;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 3em;
+  text-shadow: lightgray 0.1em 0.1em 0.2em;
 }
 
 #name:hover {
