@@ -81,6 +81,18 @@ a.menu-item:hover {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+#about-title {
+  margin-top: 100px;
+  margin-bottom: -120px;
+  color: #537A30;
+  text-shadow: darkgray 0.1em 0.1em 0.2em;
+}
+
 .thumbnail {
   background-color: #537A30;
   border-radius: 2em;
