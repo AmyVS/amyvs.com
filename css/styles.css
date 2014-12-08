@@ -86,7 +86,7 @@ h2, h3 {
 }
 
 #about-title {
-  margin-top: 100px;
+  margin-top: 5%;
   margin-bottom: -120px;
   color: #537A30;
   text-shadow: darkgray 0.1em 0.1em 0.2em;
@@ -98,9 +98,31 @@ h2, h3 {
 }
 
 #portfolio-title {
+  padding-top: 80px;
   text-align: center;
   text-shadow: #FFF 0.1em 0.1em 0.2em;
   color: #E5DE65;
+}
+
+#lucky, #donation, #github {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 1em;
+}
+
+.project {
+  margin: 8% 3%;
+}
+
+.contact-content {
+  margin: -20px -110px -10px -15px;
+}
+
+#contact-title {
+  padding-top: 20px;
+  text-align: center;
+  color: #915840;
 }
 
 .thumbnail {
@@ -114,6 +136,12 @@ h2, h3 {
 
 #bio-pic {
   margin-top: 20px;
+}
+
+.social {
+  display: block;
+  margin: auto;
+  max-width: 50%;
 }
 
 @media (max-width: 640px) {
