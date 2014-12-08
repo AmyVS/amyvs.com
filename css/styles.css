@@ -36,15 +36,15 @@ a.menu-item:hover {
 	color: #BDD2FF !important;
 }
 
-#leaf1, a#about, .about-header {
+#leaf1, a#about {
 	color: #537A30;
 }
 
-#leaf2, a#portfolio, .portfolio-header {
+#leaf2, a#portfolio {
 	color: #E5DE65;
 }
 
-#leaf3, a#contact, .contact-header {
+#leaf3, a#contact {
 	color: #915840;
 }
 
@@ -73,10 +73,10 @@ a.menu-item:hover {
   border-radius: 1%;
 }*/
 
-.about-header, .portfolio-header, .contact-header {
-  padding: .75em;
+.section-header {
+  padding: 1.5em;
   background-color: #222;
-  margin-right: -15px;
+  margin-right: -110px;
   margin-left: -15px;
   text-align: center;
 }
