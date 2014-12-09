@@ -120,8 +120,9 @@ h2, h3 {
 }
 
 #contact-title {
-  padding-top: 20px;
+  padding-top: 5%;
   text-align: center;
+  text-shadow: darkgray 0.1em 0.1em 0.2em;
   color: #915840;
 }
 
