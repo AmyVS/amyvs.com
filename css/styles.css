@@ -98,7 +98,7 @@ h2, h3 {
 }
 
 #portfolio-title {
-  padding-top: 80px;
+  padding-top: 5%;
   text-align: center;
   text-shadow: #FFF 0.1em 0.1em 0.2em;
   color: #E5DE65;
@@ -112,7 +112,7 @@ h2, h3 {
 }
 
 .project {
-  margin: 8% 3%;
+  margin: 5.5% 3%;
 }
 
 .contact-content {
