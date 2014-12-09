@@ -1,8 +1,7 @@
 #main-pic {
-	width: 110%;
-	margin-left: -15px;
-	margin-top: -12%;
-	position: relative;
+	width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 #name {
@@ -76,8 +75,6 @@ a.menu-item:hover {
 .section-header {
   padding: 1.5em;
   background-color: #222;
-  margin-right: -110px;
-  margin-left: -15px;
 }
 
 h2, h3 {
@@ -94,7 +91,6 @@ h2, h3 {
 
 .portfolio-content {
   background-color: #5d5d5d;
-  margin: -20px -110px -10px -15px;
 }
 
 #portfolio-title {
@@ -113,10 +109,6 @@ h2, h3 {
 
 .project {
   margin: 5.5% 3%;
-}
-
-.contact-content {
-  margin: -20px -110px -10px -15px;
 }
 
 #contact-title {
