@@ -1,3 +1,7 @@
+body {
+  background-color: #222;
+}
+
 #main-pic {
 	width: 100%;
   overflow: auto;
@@ -80,6 +84,10 @@ a.menu-item:hover {
 h2, h3 {
   text-align: center;
   font-family: 'Kaushan Script', cursive;
+}
+
+.about-content, .contact-content {
+  background-color: #EEE;
 }
 
 #about-title {
