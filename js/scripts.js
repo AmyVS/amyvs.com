@@ -3,7 +3,22 @@ var change_nav_height = 8;
 var original_nav_top = 19;
 
 $(document).ready(function(){
-  $(".content").hide();
+  // $(".content").hide();
+
+  $(window).on('scroll', function() {
+      // var y_scroll_pos = window.pageYOffset;
+      // var scroll_pos_test = 150;           // set to whatever you want it to be
+      var scrolling_val = $(document).scrollTop().valueOf();
+      // alert(scrolled_val);
+      if (scrolling_val === 0) {
+        $("ul.ul-top").css("visibility", "hidden");
+        $(".main-nav").show();
+      } else if(scrolling_val < 100) {
+          //do stuff
+        $("ul.ul-top").css("visibility", "visible");
+        $(".main-nav").hide();
+      }
+  });
 
   $(".menu-item").click(function(){
     $(".main-nav").slideUp("slow", "swing", function(){
