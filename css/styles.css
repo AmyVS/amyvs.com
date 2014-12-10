@@ -23,7 +23,11 @@ ul.ul-top {
 }
 
 .glyphicon-leaf {
-	margin-left: 6px;
+	margin: 15px 0 0 8px;
+}
+
+#leaf1 {
+  margin-left: 25px;
 }
 
 .glyphicon-leaf:hover {
