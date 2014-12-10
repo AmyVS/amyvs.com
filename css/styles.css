@@ -166,11 +166,14 @@ h2, h3 {
   padding: 30% 0;
 }
 
+footer {
+  text-align: center;
+}
+
 footer p {
   color: #888;
   padding: 0;
   margin: 0;
-  width: 50%;
 }
 
 #footer-right {
