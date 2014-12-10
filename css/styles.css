@@ -131,6 +131,11 @@ h2, h3 {
   font-size: 2em;
 }
 
+#teapot {
+  display: block;
+  margin: auto;
+}
+
 .contact-content {
   margin-top: -20px;
 }
@@ -165,6 +170,14 @@ footer p {
   color: #888;
   padding: 0;
   margin: 0;
+  width: 50%;
+}
+
+#footer-right {
+  display: block;
+  overflow: auto;
+  color: #888;
+  font-size: .75em;
 }
 
 @media (max-width: 640px) {
