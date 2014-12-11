@@ -26,10 +26,6 @@ html, body {
   color: #915840;
 }
 
-/*ul.ul-top {
-  visibility: hidden;
-}*/
-
 .glyphicon-leaf {
 	margin: 15px 0 0 8px;
 }
@@ -72,16 +68,6 @@ a.menu-item:hover {
 .navbar-right {
 	padding-right: 30px;
 }
-
-/*.content {
-  background: #CCC;
-  opacity: 0.6;
-  z-index: 1;
-  position: relative;
-  margin-top: -55%;
-  height: 550px;
-  border-radius: 1%;
-}*/
 
 .section-header {
   padding: 1.5em;
@@ -153,7 +139,6 @@ div#slideshow {
 
 div#exit-show {
   margin: 8px;
-  /*background-color: none !important;*/
 }
 
 #exit-btn {

@@ -15,39 +15,10 @@ $(document).ready(function(){
     });
   });
 
-  // To initially run the function:
   $(window).resize();
 
   $('#exit-btn').click(function(){
     $('div#slideshow').hide();
   });
-  // $(".content").hide();
 
-  // $(window).on('scroll', function() {
-  //     // var y_scroll_pos = window.pageYOffset;
-  //     // var scroll_pos_test = 150;           // set to whatever you want it to be
-  //     var scrolling_val = $(document).scrollTop().valueOf();
-  //     // alert(scrolled_val);
-  //     if (scrolling_val === 0) {
-  //       $("ul.ul-top").css("visibility", "hidden");
-  //       $(".main-nav").show();
-  //     } else if(scrolling_val < 100) {
-  //         //do stuff
-  //       $("ul.ul-top").css("visibility", "visible");
-  //       $(".main-nav").hide();
-  //     }
-  // });
-
-  // $(".menu-item").click(function(){
-  //   $(".main-nav").slideUp("slow", "swing", function(){
-  //     $(".main-nav").css("margin-top", change_nav_top+"px");
-  //     $(".main-nav").css("display", "block");
-  //     $(".main-nav").css("max-height", change_nav_height+"px");
-  //   });
-  //   $(".content:hidden:first").fadeIn("slow");
-  // });
-
-  // $("#name").click(function() {
-  //   location.reload();
-  // });
 });
