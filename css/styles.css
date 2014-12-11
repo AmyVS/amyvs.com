@@ -133,8 +133,9 @@ h2, h3 {
   margin: 7.5% 0;
 }
 
-#slideshow {
+div#slideshow {
   margin: 8%;
+  display: none;
 }
 
 .item {
