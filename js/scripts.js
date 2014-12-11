@@ -17,6 +17,10 @@ $(document).ready(function(){
 
   // To initially run the function:
   $(window).resize();
+
+  $('#exit-btn').click(function(){
+    $('div#slideshow').hide();
+  });
   // $(".content").hide();
 
   // $(window).on('scroll', function() {

@@ -135,6 +135,7 @@ h2, h3 {
 
 div#slideshow {
   display: none;
+  z-index: 1;
 }
 
 .item {
@@ -148,6 +149,16 @@ div#slideshow {
 
 .carousel-caption p {
   color: #6d6d6d;
+}
+
+div#exit-show {
+  margin: 8px;
+  /*background-color: none !important;*/
+}
+
+#exit-btn {
+  display: block;
+  margin: auto;
 }
 
 #contact-title {
