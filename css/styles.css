@@ -119,6 +119,10 @@ h2, h3 {
   margin: 7.5% 0;
 }
 
+.project p {
+  text-align: center;
+}
+
 div#slideshow {
   display: none;
   z-index: 1;
