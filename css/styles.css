@@ -107,6 +107,7 @@ h2, h3 {
 .portfolio-content {
   background-color: #5d5d5d;
   margin-top: -20px;
+  padding-bottom: 3em;
 }
 
 #portfolio-title {
@@ -124,7 +125,7 @@ h2, h3 {
 }
 
 .project {
-  margin: 5.5% 0;
+  margin: 7.5% 0;
 }
 
 #contact-title {
