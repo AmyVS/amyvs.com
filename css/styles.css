@@ -133,6 +133,23 @@ h2, h3 {
   margin: 7.5% 0;
 }
 
+#slideshow {
+  margin: 8%;
+}
+
+.item {
+  margin-bottom: -10px;
+}
+
+.carousel-caption {
+  margin-bottom: -20px;
+  padding-bottom: 5px !important;
+}
+
+.carousel-caption p {
+  color: #6d6d6d;
+}
+
 #contact-title {
   padding-top: 5%;
   text-align: center;
