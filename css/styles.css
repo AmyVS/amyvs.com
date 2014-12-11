@@ -1,7 +1,11 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 #main-pic {
 	width: 100%;
   overflow: auto;
-  overflow-x: hidden;
 }
 
 #name {
@@ -18,9 +22,9 @@
   color: #915840;
 }
 
-ul.ul-top {
+/*ul.ul-top {
   visibility: hidden;
-}
+}*/
 
 .glyphicon-leaf {
 	margin: 15px 0 0 8px;
@@ -149,9 +153,14 @@ h2, h3 {
   margin: 150px 25px 150px 30px;
 }
 
-.center {
+#portfolio-center {
   margin-right: 15%;
   margin-left: 15%;
+}
+
+#contact-center {
+  margin-right: 30%;
+  margin-left: 30%;
 }
 
 #bio-pic {
@@ -163,7 +172,7 @@ h2, h3 {
 .social {
   display: block;
   margin: auto;
-  padding: 30% 0;
+  padding: 60% 0;
 }
 
 footer {
@@ -196,9 +205,4 @@ footer p {
     margin-top: 15%;
     margin-left: 20px;
   }
-}
-
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
 }
