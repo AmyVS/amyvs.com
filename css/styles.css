@@ -123,31 +123,8 @@ h2, h3 {
   text-align: center;
 }
 
-div#slideshow {
-  display: none;
-  z-index: 1;
-}
-
 .item {
   margin-bottom: -10px;
-}
-
-.carousel-caption {
-  margin-bottom: -20px;
-  padding-bottom: 5px !important;
-}
-
-.carousel-caption p {
-  color: #6d6d6d;
-}
-
-div#exit-show {
-  margin: 8px;
-}
-
-#exit-btn {
-  display: block;
-  margin: auto;
 }
 
 #contact-title {
