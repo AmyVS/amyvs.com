@@ -97,8 +97,15 @@ h2, h3 {
 
 .portfolio-content {
   background-color: #5d5d5d;
+  color: #fff;
   margin-top: -20px;
   padding-bottom: 3em;
+}
+
+#portfolio-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #portfolio-title {
@@ -108,7 +115,7 @@ h2, h3 {
   color: #E5DE65;
 }
 
-#lucky, #donation, #github {
+#lucky, #donation {
   max-width: 80%;
   display: block;
   margin: auto;
@@ -117,9 +124,6 @@ h2, h3 {
 
 .project {
   margin: 7.5% 0;
-}
-
-.project p {
   text-align: center;
 }
 
